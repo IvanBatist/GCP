@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @noticium.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @noticium.description %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @noticium.picture %>
+</p>
+
+<%= link_to 'Edit', edit_noticium_path(@noticium) %> |
+<%= link_to 'Back', noticia_path %>
